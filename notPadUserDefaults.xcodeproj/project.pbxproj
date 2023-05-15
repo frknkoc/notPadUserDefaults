@@ -56,15 +56,39 @@
 		2CC7F4F92A1248F2003C1D3B /* notPadUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				2CC7F5102A12491E003C1D3B /* Views */,
+				2CC7F50F2A124912003C1D3B /* Controller */,
+				2CC7F50E2A1248FC003C1D3B /* Supporting Files */,
+			);
+			path = notPadUserDefaults;
+			sourceTree = "<group>";
+		};
+		2CC7F50E2A1248FC003C1D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				2CC7F4FA2A1248F2003C1D3B /* AppDelegate.swift */,
 				2CC7F4FC2A1248F2003C1D3B /* SceneDelegate.swift */,
-				2CC7F4FE2A1248F2003C1D3B /* ViewController.swift */,
-				2CC7F5002A1248F2003C1D3B /* Main.storyboard */,
 				2CC7F5032A1248F3003C1D3B /* Assets.xcassets */,
 				2CC7F5052A1248F3003C1D3B /* LaunchScreen.storyboard */,
 				2CC7F5082A1248F3003C1D3B /* Info.plist */,
 			);
-			path = notPadUserDefaults;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CC7F50F2A124912003C1D3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F4FE2A1248F2003C1D3B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CC7F5102A12491E003C1D3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F5002A1248F2003C1D3B /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
